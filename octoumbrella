@@ -1,0 +1,5 @@
+#!/bin/bash
+stty -F $1 $2
+
+BASEDIR=$(dirname $0)
+$BASEDIR/bin $1 $3
